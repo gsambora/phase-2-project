@@ -1,6 +1,9 @@
 import React from "react";
-import NavBar from "./NavBar";
 import { Switch, Route } from "react-router-dom";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import About from "./About";
+import NewMeal from "./NewMeal";
 
 function App() {
   return (
