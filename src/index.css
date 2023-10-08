@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:seashell;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+nav {
+  background-color:lavenderblush;
+  border-bottom: 2px solid saddlebrown;
+}
+
+nav a{
+  display:inline-block;
+  margin: 1rem 2rem;
+  text-decoration: none;
+  font-size: 1.2em;
+  color:saddlebrown;
+  border-bottom: 2px solid saddlebrown;
+}
+
+nav a:hover,
+nav a:active {
+  color:mediumvioletred;
+  border-bottom: 2px solid mediumvioletred;
+}
+
+nav a.active {
+  background-color: mediumvioletred;
+  color: lavenderblush;
 }
